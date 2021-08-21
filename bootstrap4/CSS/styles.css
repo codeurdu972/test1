@@ -1,0 +1,137 @@
+header{
+ 
+    background-color:#e3f2fd;
+    border: 1px solid #000;
+    height:200px;
+    
+  }
+
+  .logo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    height: 100px;
+    width: 200px;
+  }
+
+  nav {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    font-size: 200%;
+    padding: 10px 10px 10px 10px ;
+    height: 50px;
+    width: 500px;
+    }
+
+footer {
+  margin-top: 30px;
+   
+    background-color:#e3f2fd;
+    border: 1px solid #000;
+    height: 80px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 200%;
+  }
+
+
+.slogan{
+  height: 40px;
+  width: 600px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start:2 ;
+  grid-row-end: 3;
+  font-size: 150%;
+}
+
+
+.grid-header{
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: 140px 60px ;
+  row-gap: 7px;
+ 
+  }
+
+  
+footer > ul {
+        list-style-type:none;
+        display: flex;
+        justify-content:  space-evenly;
+      }
+
+footer > ul > li {
+        padding: 0 20px;
+      }
+
+
+      #pricing {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+
+#titreoffre{
+    display: flex;
+    justify-content: center;
+}
+
+#titreaudit{
+    display: flex;
+    justify-content: center;
+}
+
+#mainindex{
+    background-color:white;
+
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 5);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+
+  .product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+
+  .product > h2 {
+    margin-top: 15px;
+  }
+  
+  .product > ol {
+    margin: 15px 0;
+  }
+  
+  .product > ol > li {
+    padding: 5px 0;
+  }
+
+
+  .product > button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #ddd;
+    font-weight: 400;
+  }
+  
+  .product > button:hover {
+    background-color: orange;
+    transition: background-color 1s;
+  }
+  
